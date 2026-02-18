@@ -49,8 +49,8 @@ El repositorio está organizado para simular un entorno de trabajo real:
 | Día | Actividad | Estado | Tech Stack |
 | :--- | :--- | :---: | :--- |
 | **01** | [Primer Servidor Web EC2 + Apache](./labs/dia1-primer-ec2/) | ✅ | Bash, EC2, SG |
-| **02** | *Automatización con User Data* | ⏳ | Bash, EC2 |
-| **03** | *Almacenamiento S3 y CLI* | ⏳ | S3, AWS CLI |
+| **02** | [Static Website Hosting con S3](./labs/dia2-s3/) | ✅ | S3, AWS CLI, Bash |
+| **03** | *VPC: Red Virtual desde Cero* | ⏳ | VPC, Subnets, IGW |
 
 ---
 

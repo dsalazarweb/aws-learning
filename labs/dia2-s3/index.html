@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Journey - Día 2</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0a1628 0%, #1a2f5e 50%, #0d1f3c 100%);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 700px;
+            text-align: center;
+        }
+        .badge {
+            background: #00a8e8;
+            color: white;
+            padding: 6px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 24px;
+            display: inline-block;
+        }
+        h1 {
+            font-size: 2.8em;
+            font-weight: 700;
+            margin-bottom: 12px;
+            line-height: 1.2;
+        }
+        h1 span { color: #00a8e8; }
+        .subtitle {
+            font-size: 1.1em;
+            color: #8899aa;
+            margin-bottom: 40px;
+        }
+        .stats {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        .stat-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(0,168,232,0.3);
+            border-radius: 12px;
+            padding: 20px 30px;
+            min-width: 140px;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: 700;
+            color: #00a8e8;
+        }
+        .stat-label {
+            font-size: 0.8em;
+            color: #8899aa;
+            margin-top: 4px;
+        }
+        .tech-stack {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 32px;
+        }
+        .tech-tag {
+            background: rgba(0,168,232,0.15);
+            border: 1px solid rgba(0,168,232,0.4);
+            color: #00a8e8;
+            padding: 6px 16px;
+            border-radius: 6px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+        .footer {
+            color: #445566;
+            font-size: 0.85em;
+            margin-top: 40px;
+        }
+        .footer strong { color: #667788; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="badge">☁️ AWS Journey 2026</div>
+        <h1>Día 2: <span>S3 Storage</span></h1>
+        <p class="subtitle">Este sitio está hosteado en Amazon S3 — sin servidores, sin EC2, puro cloud.</p>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number">2</div>
+                <div class="stat-label">Día actual</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">$0.03</div>
+                <div class="stat-label">Costo total</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">182</div>
+                <div class="stat-label">Días totales</div>
+            </div>
+        </div>
+
+        <div class="tech-stack">
+            <span class="tech-tag">Amazon S3</span>
+            <span class="tech-tag">Static Website</span>
+            <span class="tech-tag">AWS CLI</span>
+            <span class="tech-tag">Ubuntu 24.04</span>
+        </div>
+
+        <p style="color: #8899aa; line-height: 1.7;">
+            Del Día 1 con Apache en EC2 al Día 2 con hosting estático en S3.<br>
+            Aprendiendo cloud de forma sistemática, documentando cada paso.
+        </p>
+
+        <p class="footer">
+            <strong>AWS Solutions Architect Journey</strong> · Feb–Aug 2026<br>
+            Construido 100% con AWS CLI · Sin clicks en la consola
+        </p>
+    </div>
+</body>
+</html>

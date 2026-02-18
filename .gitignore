@@ -1,28 +1,76 @@
-# AWS Credentials - NEVER COMMIT
+# ============================================
+# .gitignore - AWS Learning Repository
+# SECURITY: Never commit these files
+# ============================================
+
+# AWS Credentials & Keys
 *.pem
 *.key
 *.ppk
+.aws/
 credentials
-aws-credentials.txt
+aws-credentials*
+*_credentials*
 
-# Instance metadata
+# AWS Instance/Resource Metadata
 instance-info.json
+bucket-info.json
+*-info.json
+resource-ids.txt
+*-ids.txt
 
-# Terraform
+# Terraform sensitive files
 *.tfstate
+*.tfstate.*
 *.tfstate.backup
 .terraform/
+*.tfvars
+terraform.tfvars
+override.tf
+override.tf.json
 
-# Environment
+# Environment variables
 .env
+.env.*
+*.env
+secrets.sh
+*secrets*
 
-# IDE
-.vscode/
+# Bucket policies with account IDs
+bucket-policy.json
+*-policy.json
 
-# OS
-.DS_Store
+# SSH config with IPs
+ssh-config
+.ssh/
 
-# Logs
+# Logs that may contain IPs/IDs
 *.log
-*.tmp
+logs/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node
+node_modules/
+npm-debug.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/settings.json
+*.swp
+*.swo
 *~
+
+# Temporary files
+*.tmp
+*.bak
+versions.json
+backup-local/
