@@ -1,0 +1,28 @@
+# AWS Credentials - NEVER COMMIT
+*.pem
+*.key
+*.ppk
+credentials
+aws-credentials.txt
+
+# Instance metadata
+instance-info.json
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+*.tmp
+*~

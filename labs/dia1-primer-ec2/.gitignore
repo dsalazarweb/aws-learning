@@ -1,0 +1,13 @@
+# AWS Security - NEVER commit these
+*.pem
+*.key
+*.ppk
+aws-credentials.txt
+
+# Instance metadata
+instance-info.json
+
+# Temporary files
+*.log
+*.tmp
+*~
