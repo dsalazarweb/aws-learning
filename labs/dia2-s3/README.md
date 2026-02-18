@@ -57,9 +57,6 @@ aws s3api delete-bucket --bucket $BUCKET_NAME --region us-east-1
 
 ## 📸 Screenshots
 
-### Bucket creado
-![Bucket creado](./bucket-creado.png)
-
 ### Bucket visible en aws s3 ls
 ![Mi bucket](./mi-bucket.png)
 
