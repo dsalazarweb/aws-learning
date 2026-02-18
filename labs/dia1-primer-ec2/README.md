@@ -207,10 +207,10 @@ cat << 'EOF' | sudo tee file.html
 ## 📸 Screenshots
 
 ### Página web funcionando
-![Vista del navegador con la IP pública](./Mi%20primer%20servidor%20aws.png)
+![Navegador](./mi-primer-servidor-aws.png)
 
 ### Terminal SSH conectado
-![Conexión SSH exitosa a la instancia EC2](./consola%20ssh.png)
+![Terminal](./consola-ssh.png)
 
 ## ✅ Checklist Completado
 
