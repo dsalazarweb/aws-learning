@@ -206,8 +206,11 @@ cat << 'EOF' | sudo tee file.html
 
 ## 📸 Screenshots
 
-- Página web funcionando: `screenshot-navegador.png`
-- Terminal SSH conectado: `screenshot-ssh.png`
+### Página web funcionando
+![Vista del navegador con la IP pública](./Mi%20primer%20servidor%20aws.png)
+
+### Terminal SSH conectado
+![Conexión SSH exitosa a la instancia EC2](./consola%20ssh.png)
 
 ## ✅ Checklist Completado
 
@@ -220,7 +223,7 @@ cat << 'EOF' | sudo tee file.html
 - [x] Acceso desde navegador verificado
 - [x] Screenshot tomado
 - [x] Instancia TERMINADA
-- [x] Documentación completa
+- [x] Documentación completa 
 - [x] Costos analizados
 
 ## 🔄 Próximos Pasos

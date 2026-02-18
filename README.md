@@ -1,4 +1,4 @@
-# ☁️ My AWS Cloud Administrator Journey: Zero to Production
+# ☁️ AWS Cloud Administrator Journey: Zero to Production
 
 > **Estado:** 🟢 En Progreso | **Inicio:** Feb 2026 | **Meta:** Ago 2026
 > **Enfoque:** Infraestructura como Código (IaC), Automatización y Arquitectura Resiliente.
@@ -46,7 +46,7 @@ El repositorio está organizado para simular un entorno de trabajo real:
 ## 🚀 Registro de Progreso
 
 ### Semana 1: Fundamentos de Cómputo
-| Día | Tividad | Estado | Tech Stack |
+| Día | Actividad | Estado | Tech Stack |
 | :--- | :--- | :---: | :--- |
 | **01** | [Primer Servidor Web EC2 + Apache](./labs/dia1-primer-ec2/) | ✅ | Bash, EC2, SG |
 | **02** | *Automatización con User Data* | ⏳ | Bash, EC2 |
@@ -56,11 +56,12 @@ El repositorio está organizado para simular un entorno de trabajo real:
 
 ## 🛠️ Tech Stack & Herramientas
 
+- **Local Workstation:** Linux Mint 22.3 "Wilma"
 - **Cloud Provider:** Amazon Web Services (AWS)
-- **IaC:** Terraform
-- **OS:** Ubuntu Linux / Amazon Linux
-- **Scripting:** Bash, Python
-- **Version Control:** Git & GitHub
+- **Cloud OS:** Ubuntu 24.04 LTS / Amazon Linux 2023
+- **Infrastructure as Code (IaC):** Terraform (Phase 3)
+- **Scripting:** Bash, Python (Boto3)
+- **Version Control:** Git & GitHub (Identity: Protected via noreply email)
 
 ---
 *Este proyecto es mantenido por [Diego Salazar]. La documentación detallada de cada laboratorio se encuentra dentro de su carpeta correspondiente en `labs/`.*
