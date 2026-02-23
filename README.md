@@ -40,7 +40,7 @@ aws-learning/
 | Día | Tema | Estado |
 |-----|------|--------|
 | 01 | [Sistema de archivos y navegación básica](./labs/fase0-linux/dia01/) | ⏳ |
-| 02 | Archivos: crear, mover, copiar, eliminar | ⏳ |
+| 02 | [Archivos: crear, mover, copiar, eliminar](./labs/fase0-linux/dia02/README.md) | ⏳ |
 | 03 | Usuarios, grupos y permisos (`chmod`, `chown`) | ⏳ |
 | 04 | Procesos y servicios (`ps`, `top`, `systemctl`) | ⏳ |
 | 05 | Editor de texto `nano` y `vim` básico | ⏳ |
