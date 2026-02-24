@@ -39,9 +39,9 @@ aws-learning/
 ### 🟢 FASE 0 — Linux + Terminal (Semanas 1-3)
 | Día | Tema | Estado |
 |-----|------|--------|
-| 01 | [Sistema de archivos y navegación básica](./labs/fase0-linux/dia01/) | ⏳ |
-| 02 | [Archivos: crear, mover, copiar, eliminar](./labs/fase0-linux/dia02/README.md) | ⏳ |
-| 03 | Usuarios, grupos y permisos (`chmod`, `chown`) | ⏳ |
+| 01 | [Sistema de archivos y navegación básica](./labs/fase0-linux/dia01/) | ✅ |
+| 02 | [Archivos: crear, mover, copiar, eliminar](./labs/fase0-linux/dia02/README.md) | ✅ |
+| 03 | [Usuarios, grupos y permisos (`chmod`, `chown`)](./labs/fase0-linux/dia03/README.md) | ✅ |
 | 04 | Procesos y servicios (`ps`, `top`, `systemctl`) | ⏳ |
 | 05 | Editor de texto `nano` y `vim` básico | ⏳ |
 | 06 | SSH: llaves, conexión y configuración | ⏳ |
