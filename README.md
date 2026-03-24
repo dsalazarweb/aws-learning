@@ -143,6 +143,15 @@ Arquitectura 3-tier completa: Frontend (S3+CloudFront) → Backend (ECS) → DB 
 
 ---
 
+## 🖥️ Entorno de Trabajo
+
+| Período | Entorno | Motivo |
+|---------|---------|--------|
+| Feb 2026 | Linux Mint 22.3 | Inicio del proyecto |
+| Mar 2026 | Windows 10 Pro 22H2 + WSL2 (Ubuntu 24.04) | Requisito de apps de trabajo |
+
+---
+
 ## 🛠️ Tech Stack Completo
 
 **Fundamentos:** Linux · Bash · Python · Git
