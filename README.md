@@ -43,8 +43,8 @@ aws-learning/
 | 02 | [Archivos: crear, mover, copiar, eliminar](./labs/fase0-linux/dia02/README.md) | ✅ |
 | 03 | [Usuarios, grupos y permisos (`chmod`, `chown`)](./labs/fase0-linux/dia03/README.md) | ✅ |
 | 04 | [Procesos y servicios (`ps`, `top`, `systemctl`, `journalctl`)](./labs/fase0-linux/dia04/README.md) | ✅ |
-| 05 | Editor de texto `nano` y `vim` básico | ⏳ |
-| 06 | SSH: llaves, conexión y configuración | ⏳ |
+| 05 | [Editor de texto `nano` y `vim` básico](./labs/fase0-linux/dia05/README.md) | ✅ |
+| 06 | [SSH: llaves, conexión y configuración](./labs/fase0-linux/dia06/README.md) | ✅ |
 | 07 | Logs del sistema y diagnóstico | ⏳ |
 | 08 | Gestión de paquetes (`apt`) | ⏳ |
 | 09 | Red desde terminal (`ip`, `ping`, `curl`, `ss`) | ⏳ |
